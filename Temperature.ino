@@ -1,8 +1,8 @@
 #include<ESP8266WiFi.h>
 Const char* ssid = “wifiname”;
 Const char*password= “123”;
-Float temp_ celsius = 0;
-Float temp_ fharenheit = 0;
+float temp_ celsius = 0;
+float temp_ farenheit = 0;
 WiFiServer server(80);
 Void setup()
 {
